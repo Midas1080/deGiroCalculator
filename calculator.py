@@ -240,7 +240,4 @@ if __name__ == "__main__":
 # --name "jeGiro_Rendement_Mac" calculator.py
 
 # To build app on Windows
-# pyinstaller --onefile --noconsole ^
-# --icon="moneybag.ico" ^
-# --add-data "icon_512x512@2x.png;." ^
-# --name "deGiro_analyzer_Win" calculator.py
+# pyinstaller --onefile --noconsole --icon="moneybag.ico" --add-data ".\icon_512x512@2x.png;." --name "deGiroCalculatorWindows" .\calculator.py
